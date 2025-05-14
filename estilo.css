@@ -1,0 +1,29 @@
+/* Fondo azul claro en pantallas grandes (más de 768px) */
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightblue;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Fondo naranja en pantallas medianas (480px a 768px) */
+@media (min-width: 480px) and (max-width: 768px) {
+  body {
+    background-color: orange;
+  }
+}
+
+/* Fondo verde claro en pantallas pequeñas (menos de 480px) */
+@media (max-width: 479px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+h1 {
+font-size: 36px;
+}
+p {
+font-size: 18px;
+}
